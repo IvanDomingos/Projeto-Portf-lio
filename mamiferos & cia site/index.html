@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aula06</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav id="navbar" class="navbar navbar-expand-lg bg-success-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mamíferos & Cia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trabalhe Conosco</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Artigos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Animais</a></li>
+              <li><a class="dropdown-item" href="#">Animais Em Risco</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Animais Extintos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.cnnbrasil.com.br/tudo-sobre/biologia/" class="nav-link enabled"
+              aria-disabled="true">Notícias</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquise Aqui" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide">
+    <div id="Lontra" class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pexels-pixabay-53510.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div id="Esquilo" class="carousel-item">
+        <img src="pexels-ameresh-mishra-1470923-2832217.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div id="Camundongo" class="carousel-item">
+        <img src="pexels-pixabay-301448.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div id="Guaxinim" class="carousel-item">
+        <img src="pexels-davidohboy-7516689.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div id="Elefante" class="carousel-item">
+        <img src="pexels-hsapir-1054666.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="card d-inline-flex p-2" style="width: 18rem;">
+    <img src="pexels-pixabay-53510.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Lontra</h5>
+      <p class="card-text">Mamífero aquático e bastante agressivo.</p>
+      <a href="#Lontra" class="btn btn-primary">Visualizar</a>
+    </div>
+  </div>
+
+  <div class="card d-inline-flex p-2" style="width: 18rem;">
+    <img src="pexels-ameresh-mishra-1470923-2832217.jpg" card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Esquilo</h5>
+      <p class="card-text">Animal que ama esconder nozes, seja elas dentro de sua boca bastante flexível, ou dentro de
+        suas tocas.</p>
+      <a href="#Esquilo" class="btn btn-primary">Visualizar</a>
+    </div>
+  </div>
+
+  <div class="card d-inline-flex p-2" style="width: 18rem;">
+    <img src="pexels-pixabay-301448.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camundongo</h5>
+      <p class="card-text">Não confundir com ratos, pois ele é muito mais fofo kkkkk. Inclusive o Mickey Mouse é um
+        camundongo, e não um rato.</p>
+      <a href="#Camundongo" class="btn btn-primary">Visualizar</a>
+    </div>
+  </div>
+
+  <div class="card d-inline-flex p-2" style="width: 18rem;">
+    <img src="pexels-davidohboy-7516689.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Guaxinim</h5>
+      <p class="card-text">Um animal fofo, porém bastante agressivo e transmite várias doenças. São praticamente os
+        cachorros caramelos dos Estados Undidos.</p>
+      <a href="#Guaxinim" class="btn btn-primary">Visualizar</a>
+    </div>
+  </div>
+
+  <div class="card d-inline-flex p-2" style="width: 18rem;">
+    <img src="pexels-hsapir-1054666.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Elefante</h5>
+      <p class="card-text">Um animal bem grande, possui presas enormes, e é bastante territorial. Está ameaçado de
+        extinção devido as ações dos seres humanos.</p>
+      <a href="#Elefante" class="btn btn-primary">Visualizar</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

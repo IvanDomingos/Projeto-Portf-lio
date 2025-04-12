@@ -1,0 +1,14 @@
+*{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 35%, rgb(255, 255, 255) 100%);
+    padding: 0;
+}
+
+form{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
